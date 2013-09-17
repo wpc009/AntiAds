@@ -1,0 +1,21 @@
+{
+  "name": "AntiAds",
+  "version": "1.0",
+  "minimum_chrome_version": "30.0",
+  "description": "Using alternative video player without ADs",
+  "background": { "scripts": ["background.js"] },
+  "page_action":{
+    "default_title":"AntiAds",
+    "default_icon":"images/icon_64x64.png"
+  },
+  "permissions": [
+    "declarativeWebRequest",
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "manifest_version": 2
+}
