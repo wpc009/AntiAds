@@ -7,6 +7,7 @@ Supported web site:
 * Tudou
 * Iqiyi
 * Letv
+
 **`This extension uses some experimental apis. So, a dev version Chrome may be required.`**
 
 The ads-free video player comes from 
