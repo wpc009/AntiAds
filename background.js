@@ -1,10 +1,4 @@
-// Copyright (c) 2012 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
 
-// Sample extension to replace all JPEG images (but no PNG/GIF/... images) with
-// lolcat images from http://icanhascheezburger.com/ - except for images on
-// Google.
 
 var RequestMatcher = chrome.declarativeWebRequest.RequestMatcher;
 var IgnoreRules = chrome.declarativeWebRequest.IgnoreRules;
